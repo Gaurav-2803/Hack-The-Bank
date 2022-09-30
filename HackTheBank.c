@@ -32,7 +32,7 @@ void main()
        
         if(length!=4)
         {
-            system("color 4");                     //Red Color
+            system("color 4");                     //Red Color more specific brownish red colour
             printf("\nTry Again \nPin Length Should Be 4 Not %d",length);
             length=0;
             trial++;                            
