@@ -5,7 +5,7 @@
 void end()
 {
     system("color c");
-    printf("\n\tEnd Of Services\n\t===============");
+    printf("\n\tEnd Of Services\n\t====##################===========");
 }
 
 
@@ -20,9 +20,9 @@ void main()
     printf("4 Digit Pin Only");
     do
     {
-        printf("\n=====================\nEnter Your Pin : ");
+        printf("\n=============#####========\nEnter Your Pin : ");
         scanf("%d",&ori_pin);
-        printf("=====================");
+        printf("=============######========");
         int x=ori_pin;
         while(x!=0)                                 //Check Length Of Pin
         {
@@ -40,7 +40,7 @@ void main()
             if(trial==3)                               //No. Of trial 
             {
                 system("cls");
-                printf("\n\t===============\n\tTrial Exhausted");
+                printf("\n\t=========######======\n\tTrial Exhausted");
                 end();
                 break;
             }    
@@ -127,3 +127,6 @@ void main()
     }
     getch(); 
 }
+
+
+// This code is awesome!
